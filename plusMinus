@@ -1,0 +1,20 @@
+def plusMinus(arr):
+    pos=0
+    neg=0
+    zer=0
+    for i in arr:
+        if (arr[i]>0):
+            pos =pos+1
+        elif (arr[i]<0):
+            neg =neg+1
+        else:
+            zer =zer+1
+    pos1=pos/len(arr)
+    neg1=neg/len(arr)
+    zer1=zer/len(arr)
+    print(f"{pos1:.6f}")
+    print(f"{neg1:.6f}")
+    print(f"{zer1:.6f}")
+
+arr=[-1, -2, 0, 1, 2, 3]
+plusMinus(arr)
