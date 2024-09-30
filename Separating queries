@@ -1,0 +1,12 @@
+def matchingStrings(strings, queries):
+    # Write your code here
+    result=[]
+    for query in queries:
+        count1=strings.count(query)
+        result.append(count1)
+    return result
+strings=[4, 'abc', 'abc', 'abc', 'ghi', 'xyz', 'aba']
+queries = ['abc', 'ghi', 'xyz', 'aba']
+print(matchingStrings(strings, queries))
+        
+        
