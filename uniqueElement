@@ -1,0 +1,9 @@
+def find_unique(arr):
+    unique_element = 0
+    for num in arr:
+        unique_element ^= num  # XOR operation
+    return unique_element
+
+# Example usage
+arr = [4, 1, 5, 2, 4, 1, 2]
+print(find_unique(arr))
