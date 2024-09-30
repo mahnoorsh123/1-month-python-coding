@@ -1,0 +1,9 @@
+def miniMaxSum(arr):
+    # Write your code here
+    arr.sort()
+    min= sum(arr[:4])
+    max=sum(arr[1:])
+    print(min, max)
+    
+arr = list(map(int, input().split()))
+miniMaxSum(arr)
