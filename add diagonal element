@@ -1,0 +1,12 @@
+def add(arr):
+n=len(arr)
+for i in range(n):
+pos +=arr[i][i]
+neg +=arr[i][n-i-1]
+return abs(pos-neg)
+length=int(input())
+matrix=[]
+for i in range(length):
+row=list(map(int,input().split())
+matrix.append(row)
+print(add(matrix))
