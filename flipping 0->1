@@ -1,0 +1,5 @@
+def flip(n):
+return n^ 0xFFFFFFFF
+for i in range(5)
+i=int(input())
+print(flip(i))
