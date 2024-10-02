@@ -1,0 +1,12 @@
+def flip(n,k,A,B):
+n=len(A)
+for i in range(n):
+if A[i]+B[i]>=k
+print("yes")
+else:
+print("no")
+q=int(input())
+for i in range(q):
+n,k=map(int,input().split())
+A,B=list(map(int,input().split())
+flip(n,k,A,B)
