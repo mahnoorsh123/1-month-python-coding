@@ -1,0 +1,10 @@
+def xor(a,b):
+res=[]
+for b1,b2 in zip(a,b):
+if b1==b2:
+res.append(0)
+else:
+res.append(1)
+a=input()
+b=input()
+xor(a,b)
