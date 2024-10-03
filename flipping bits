@@ -1,12 +1,13 @@
-def flip(n,k,A,B):
-n=len(A)
+def permut(n,k,A,B):
+A=A.sort()
+B=B.sort(reverse=True)
 for i in range(n):
-if A[i]+B[i]>=k
+if A[i]+B[I]<k:
+print("NO")
+return
 print("yes")
-else:
-print("no")
 q=int(input())
-for i in range(q):
-n,k=map(int,input().split())
+for _ in range(q):
+n,k=int(input().split())
 A,B=list(map(int,input().split())
-flip(n,k,A,B)
+permut(n,k,A,B)
