@@ -1,0 +1,24 @@
+class (Person):
+def __init__(self,age):
+if age<0:
+self.age=0
+print("age is invalid")
+else:
+self.age=age
+def amIold(self):
+if self.age<13
+print("young")
+elif 13<=self.age<18:
+print("teenager")
+else:
+print("old")
+def yearPass(self):
+self.age +=1
+t=int(input())
+for _ in range(t):
+age=int(input("age")
+p=Person(age)
+p.amIold()
+for _ in range(3)
+p.yearPass()
+p.amIold()
