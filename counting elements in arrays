@@ -1,0 +1,9 @@
+def counting(n,arr)
+counts=[0]*n
+for num in arr:
+counts[num] +=1
+return counts
+n=int(input())
+for _ in range(n)
+arr=list(map(int,input().split())
+print("" .join(map(str,counting(n,arr))
