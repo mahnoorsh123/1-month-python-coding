@@ -1,0 +1,13 @@
+def separate(st):
+even=""
+odd=""
+for i in range(len(st):
+if i % 2 ==0:
+even +=st[i]
+else:
+odd +=st[i]
+print(even,odd)
+i=int(input())
+for _ in range(i):
+st=input()
+separate(st)
