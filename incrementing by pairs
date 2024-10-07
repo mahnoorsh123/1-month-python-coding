@@ -1,0 +1,14 @@
+def pairs(n,ar):
+counts=0
+pairs=0
+for sock in ar:
+if sock in counts:
+counts[sock] +=1
+else:
+counts[sock] =1
+for count in counts.values():
+pairs +=count // 2
+return pairs
+n=int(input())
+ar=list(map(int, input(),split())
+pair(n,ar)
