@@ -1,0 +1,7 @@
+def bin(n):
+bi=binary[n][2:0]
+ones=bi.split('0')
+max_one=max(len(group) for group in ones)
+return max_one
+n=int(input())
+print(bin(n))
