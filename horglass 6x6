@@ -1,0 +1,15 @@
+def hourglass(matrix):
+max_sum=-float('inf')
+for i in range(1,5):
+for j in range(1,5):
+top=matrix[i-1][j-1]+matrix[i-1][j]+matrix[i-1][j+1]
+            middle = matrix[i][j]
+            bottom = matrix[i + 1][j - 1] + matrix[i + 1][j] + matrix[i + 1][j + 1]
+            hourglass_sum = top + middle + bottom
+            max_sum = max(max_sum, hourglass_sum)
+return max_sum
+matrix=[]
+for _ in range(6):
+    row = list(map(int, input().split()))
+    matrix.append(row)
+print( max_hourglass_sum(matrix))
